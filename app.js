@@ -34,7 +34,6 @@ links.forEach((link) => {
 })
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-
 let interval = null;
 
 document.querySelector("h2").onmouseover = event => {  
@@ -80,13 +79,13 @@ document.querySelector("about").onmouseover = event => {
         .join("");
       
       if(iteration >= event.target.dataset.value.length){ 
-        clearInterval(interval);
+        clearInterval(interval1);
       }
       
       iteration += 1 / 5;
     }, 20);
   }
-  document.querySelector("work").onmouseover = event => {  
+document.querySelector("work").onmouseover = event => {  
     let iteration = 0;
     
     clearInterval(interval);
@@ -109,4 +108,4 @@ document.querySelector("about").onmouseover = event => {
       
       iteration += 1 / 5;
     }, 20);
-  }
+}

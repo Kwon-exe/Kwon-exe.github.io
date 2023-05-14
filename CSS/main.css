@@ -2,6 +2,9 @@
 :root{
     --background-color: #000000;
     --border-color: rgba(255, 255, 255, 0.582);
+    cursor:none
+    
+    
 }
 body{
     background-color: var(--background-color) ;
@@ -89,7 +92,7 @@ main > article > .article-discription-section > p {
     padding-top:40%
 }
 main > article > .article-title-section > div > h2 {
-    padding-top: 11%;
+    padding-top: 12%;
     padding-left: 5%;
     font-size: 200%;
 }
@@ -142,6 +145,15 @@ main > article > .article-nav-section > .left-arrow-link{
     border-right: 1px solid var(--border-color);
 }
 
+main > article > .article-image-section{
+    opacity: 0.65;
+    overflow: hidden;
+    width: 67vw;
+    height: 60vh;
+    max-width: 100%;
+}
+
+
 .inner-cursor{
     position: fixed;
     left: 10px;
@@ -152,12 +164,16 @@ main > article > .article-nav-section > .left-arrow-link{
     mix-blend-mode: difference;
     border-radius: 50%;
     pointer-events: none;
-    transition: width 0.01s, height 0.01s;
+    transition: width 0.1s, height 0.1s;
 }
 
 .inner-cursor.grow{
     width:50px;
     height: 50px;
     transition: width 0.5s, height 0.5s;
+}
+
+main > article > .article-image-section > img {
+    overflow: hidden
 }
 

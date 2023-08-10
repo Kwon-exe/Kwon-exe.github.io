@@ -33,8 +33,6 @@ links.forEach((link) => {
     });
 })
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-let interval = null;
 
 document.querySelector("h2").onmouseover = event => {  
   let iteration = 0;

@@ -60,39 +60,19 @@ nav > .nav-section {
     font-size: 1rem;
 }
 
-main {
+body{
     display: grid;
     place-items: center;
+}
+
+main {
+    display: grid;
+    place-items: left;
     margin: 4rem;
-}
-.round{
-    background-color: #57748f;
+    padding-top: 0rem;
     width: 55rem;
-    height: 40rem;
-    border-radius: 10px;
+    height: 55rem;
 }
-
-.line{
-    display:flex;
-    justify-content:space-between;
-}
-
-.word, main > .round > .line > a{
-    color:#d1d1a7;
-    font-size: 5vw;
-    margin: 1rem;
-    text-transform: uppercase;
-    
-}
-
-.word, main > .round > .line > a > .fancy{
-    color: #e4e4d2;
-}
-
-.round:has(.fancy:hover) .word:not(.fancy:hover){
-    opacity: 0.2;
-}
-
 
 .inner-cursor{
     position: fixed;

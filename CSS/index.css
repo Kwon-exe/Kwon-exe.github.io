@@ -63,7 +63,7 @@ nav > .nav-section {
 main {
     display: grid;
     place-items: center;
-    margin: 4rem;
+    margin: 0rem;
 }
 .round{
     background-color: #6188ac;

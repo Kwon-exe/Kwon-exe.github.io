@@ -67,8 +67,8 @@ main {
 }
 .round{
     background-color: #6188ac;
-    width: 55rem;
-    height: 40rem;
+    width: 55vw;
+    height: 75vh;
     border-radius: 10px;
 }
 

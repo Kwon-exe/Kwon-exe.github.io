@@ -112,3 +112,7 @@ main {
     height: 50px;
     transition: width 0.5s, height 0.5s;
 }
+
+.content{
+    text-align:center;
+}
